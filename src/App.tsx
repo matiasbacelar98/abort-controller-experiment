@@ -10,6 +10,7 @@
  */
 
 import { AbortControllerEventListener } from './AbortControllerEventListener';
+import { AbortControllerErrorHandling } from './AbortControllerErrorHandling';
 import { AbortControllerFetch } from './AbortControllerFetch';
 
 export function App() {
@@ -18,6 +19,7 @@ export function App() {
       <h1>Abort Controller Experiment</h1>
       <AbortControllerEventListener />
       <AbortControllerFetch />
+      <AbortControllerErrorHandling />
     </>
   );
 }
